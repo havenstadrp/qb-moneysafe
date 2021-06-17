@@ -35,7 +35,7 @@ end
 # NOTE that job name needs to be the name of the safe so that it knows witch job to look for.
 # example:
 
-#  police money safe will look for the police job and if isboss if its true then it will show him the money safe if not then player wont be able to see it.
+#  police money safe will look for the police job and if isboss is true then it will show him the money safe if not then player wont be able to see it.
 # if current == "police" then
 # IsAuthorized = PlayerData.job.isboss
 
