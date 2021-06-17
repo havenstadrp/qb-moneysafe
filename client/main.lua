@@ -50,7 +50,7 @@ function SetClosestSafe()
     ClosestSafe = current
     if ClosestSafe ~= nil then
         if current == "police" then
-            IsAuthorized = exports['qb-policejob']:IsArmoryWhitelist()
+            IsAuthorized = PlayerData.job.isboss == true
         end
     end
 end
