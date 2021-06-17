@@ -50,7 +50,7 @@ function SetClosestSafe()
     ClosestSafe = current
     if ClosestSafe ~= nil then
         if current == "police" then
-            IsAuthorized = PlayerData.job.isboss == true
+            IsAuthorized = PlayerData.job.isboss
         end
     end
 end
