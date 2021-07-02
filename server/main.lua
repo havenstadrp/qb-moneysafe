@@ -1,8 +1,3 @@
-QBCore = nil
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
-
--- Code
-
 Citizen.CreateThread(function()
     exports.ghmattimysql:execute("SELECT * FROM `moneysafes`", function(safes)
         if safes[1] ~= nil then
